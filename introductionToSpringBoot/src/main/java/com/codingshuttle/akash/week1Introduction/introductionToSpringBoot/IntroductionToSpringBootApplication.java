@@ -17,6 +17,7 @@ public class IntroductionToSpringBootApplication  implements CommandLineRunner {
 //		obj.eatApple();
 		System.out.println("you");
 		System.out.println("hello");
+		System.out.println("A");
 	}
 
 	@Override
