@@ -15,6 +15,7 @@ public class IntroductionToSpringBootApplication  implements CommandLineRunner {
 		SpringApplication.run(IntroductionToSpringBootApplication.class, args);
 
 //		obj.eatApple();
+		System.out.println("you");
 		System.out.println("hello");
 	}
 
