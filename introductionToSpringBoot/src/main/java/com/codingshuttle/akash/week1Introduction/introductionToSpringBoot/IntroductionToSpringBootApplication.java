@@ -14,7 +14,7 @@ public class IntroductionToSpringBootApplication  implements CommandLineRunner {
     Apple obj2;
 
 	@Autowired
-	DBService dbService;
+	DBService dbService;x
 
 	public static void main(String[] args) {
 		SpringApplication.run(IntroductionToSpringBootApplication.class, args);
@@ -22,8 +22,6 @@ public class IntroductionToSpringBootApplication  implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-//		obj1.eatApple();
-//		obj2.eatApple();
 		System.out.println(dbService.getData());
 
 	}
