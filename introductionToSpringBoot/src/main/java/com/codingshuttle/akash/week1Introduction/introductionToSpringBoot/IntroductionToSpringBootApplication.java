@@ -14,7 +14,7 @@ public class IntroductionToSpringBootApplication  implements CommandLineRunner {
     Apple obj2;
 
 	@Autowired
-	DBService dbService;x
+	DBService dbService;
 
 	public static void main(String[] args) {
 		SpringApplication.run(IntroductionToSpringBootApplication.class, args);
