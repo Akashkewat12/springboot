@@ -9,19 +9,22 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class IntroductionToSpringBootApplication  implements CommandLineRunner {
 
 	@Autowired
-	Apple  obj;
+	Apple  obj1;
+	@Autowired
+    Apple obj2;
+
+	@Autowired
+	DBService dbService;
 
 	public static void main(String[] args) {
 		SpringApplication.run(IntroductionToSpringBootApplication.class, args);
-
-//		obj.eatApple();
-		System.out.println("you");
-		System.out.println("hello");
-		System.out.println("A");
 	}
 
 	@Override
 	public void run(String... args) throws Exception {
-		obj.eatApple();
+//		obj1.eatApple();
+//		obj2.eatApple();
+		System.out.println(dbService.getData());
+
 	}
 }
